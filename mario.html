@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        #ff {
+            z-index: -1;
+            position: absolute;
+            height: 500px;
+            width: 100%;
+        }
+        
+        #gg {
+            position=fixed;
+            margin-top: 395px;
+            margin-left: 0px;
+            height: 80px;
+            width: 70px;
+            animation-name: example;
+            animation-duration: 15s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        
+        img #gg:hover {
+            opacity: 0.5;
+        }
+        
+        @keyframes example {
+            0% {
+                margin-left: 0%;
+            }
+            100% {
+                margin-left: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <script src="js/jq.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <div>
+        <img id="ff" src="https://i.pinimg.com/originals/8e/e7/e4/8ee7e419c03e41cbf7a2b21776cc9a2a.jpg" alt="hh">
+        <img id="gg" src="https://i.gifer.com/origin/ac/acf3abb6da430dd78cc99f925bb52d49_w200.gif" alt="gif">
+    </div>
+
+
+
+</body>
+
+</html>
